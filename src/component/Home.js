@@ -5,7 +5,7 @@ export default class Home extends Component {
     constructor() {
         super();
         this.state = {
-            msg: 'Welcome! hanjinhui'
+            msg: '电影'
         }
     }
     render() {

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.about .photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about .photo li{
+    width: 23%;
+    height: 27rem;
+    padding: 0 1%;
+    margin-bottom: 1rem;
+    
+}
+.about .photo li img{
+    width: 100%;
+    height: 25rem;
+    border: 1px solid #d1dbe5;
+}
+.about .photo li p{
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+.span1{
+    color: #37a;
+    margin-right:5px;
+}
+.span2{
+    color: #e09015;
+}
+
+.Pagination{
+    text-align: center;
+}
+.search{
+    width: 30rem;
+}
